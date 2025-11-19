@@ -1,0 +1,7 @@
+/* corpo do site */
+.main {
+    display: flex; /* deixa flexivel, em linha */
+    height: 100vh; /* altura */
+    position: fixed; /* ajusta a posicao */
+    font-family: "Inter", sans-serif; /* estilo da fonte */
+}

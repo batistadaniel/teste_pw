@@ -1,0 +1,33 @@
+.content {
+    display: flex; /* deixa flexivel, em linha */
+    flex-direction: column; /* deixa flexivel, em coluna */
+    gap: 12px;
+}
+
+.section {
+    flex: 1; /* ocupa todo espaco que sobrou do lado do menu */
+    overflow-y: auto; /* deixa ROLAvel ... lá ele kkkkk */
+    scrollbar-width: none; /* tira a caralha da barra de rolagem */
+    padding: 36px 36px 100px; /* espacamento interno */ 
+    height: 90%; /* ajusta a altura pra nao cortar la embaixo */   
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", Sans-Serif;
+}
+
+.img {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+.img img {
+    width: 60%;
+}
+
+@media screen and (max-width: 768px){
+    .img img {
+        width: 100%;
+    }
+}
